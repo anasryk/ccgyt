@@ -857,6 +857,6 @@ footer::before {
     }
     .navbar-toggler {
         transition: none;
-        margin-right: 40px;
+        margin-right: 20px;
     }
 }
