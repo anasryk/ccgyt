@@ -847,3 +847,18 @@ footer::before {
     }
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .navbar-toggler {
+        transition: none;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .whatsapp-btn {
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
